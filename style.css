@@ -1,0 +1,298 @@
+* {
+    box-sizing: border-box;
+}
+
+html, body {
+    font-family: Roboto, "segoe ui", Helvetica, Arial, sans-serif;
+}
+
+a {
+    color: #000000;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #333333;
+    text-decoration: none;
+}
+
+p {
+    margin: initial;
+}
+
+.font-size-medium {
+    font-size: 14px;
+}
+
+.font-size-small {
+    font-size: 12px;
+}
+/* Main right CSS */
+/* Header CSS */
+
+.navbar {
+    color:  hsl(0, 0%, 100%);
+}
+.btn {
+    background-color: hsl(0, 0%, 100%);
+    color: black;
+}
+
+.nav-link {
+    padding-right: 15px;
+    color: #333333;
+}
+
+#list-menu {
+    padding: 0;
+    font-size: 14px;
+    background-color: hsl(0, 0%, 89%);
+}
+
+#list-menu li:hover {
+    background-color: hsl(0, 0%, 100%);
+}
+
+.dropdown {
+    position: relative;
+}
+
+.dropbtn {
+    cursor: pointer;
+    list-style: none;
+    
+}
+
+.dropbtn a {
+    color: black;
+    text-decoration: none;
+}
+
+.dropdown-content {
+    background-color:hsl(192, 15%, 94%);
+    padding: 0;
+    display: none;
+    position: absolute;
+    width: 150px;
+}
+
+.dropdown-content li {
+    padding: 8px;
+}
+
+.dropdown-content li:hover a {
+    color: blue;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+/* Main left image head CSS */
+
+.row {
+    padding-top: 15px;
+}
+
+#main-left {
+    padding-right: 10px;
+    padding-left: 0;
+}
+
+#main-right {
+    padding-left: 10px; 
+    padding-right: 0;
+}
+
+#list-image {
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+    grid-column-gap: 8px;
+    padding: 15px 0;
+}
+
+.icon-image img {
+    width: 100%;
+}
+
+#your-music {
+    width: 100%;
+    height: 125px;
+    border: 0px solid;
+    padding: 15px;
+    background-color: hsl(30, 1%, 38%);
+}
+
+.big-image img {
+    width: 100%;
+}
+
+.theme-image {
+    padding-top: 20px;
+}
+
+.theme-image h3 {
+    text-transform: uppercase;
+}
+
+.theme-image img {
+    width: 100%;
+    padding-top: 15px;
+}
+
+/* Zingchart head */
+
+#zingchart-head {
+    padding: 15px 0;
+}
+
+#zingchart-head img {
+    width: 100%;
+}
+
+/* Zingchart main */
+
+.zingchart-section {
+    display: flex;
+    align-items: center;
+    padding: 10px 0;
+    border-bottom: 1px solid hsl(0, 0%, 93%);
+}
+
+.zingchart-section h3 {
+    font-size: 22px;
+    color: hsl(212, 73%, 59%);
+    padding-right: 30px;
+}
+
+.zingchart-info {
+    position: relative;
+    top: -10px;
+    flex-grow: 1;
+    font-size: 14px;
+}
+
+.zingchart-song a:hover {
+    color: #800080;
+    text-decoration: none;
+}
+
+.zingchart-artist {
+    font-size: 12px;
+}
+
+.zingchart-artist a:hover {
+    color: #000000;
+    text-decoration: none;
+}
+
+.zingchart-item img {
+    height: 60px;
+    width: auto;
+    padding-right: 10px;
+}
+
+.zingchart-icon {
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 50px;
+}
+
+.zingchart-icon img{
+    height: 16px;
+    padding-right: 15px;
+}
+
+/* CÀ PHÊ CUỐI TUẦN - Tận hưởng một cuối tuần thật nhẹ nhàng */
+
+.selection-topic {
+    display: grid;
+    grid-template-columns: 150px 150px 150px 150px;
+    grid-column-gap: 15px;
+}
+
+.selection-topic figure img {
+    width: 100%;
+}
+
+/* Nhạc Việt */
+
+#music-vietnamese {
+   display: grid;
+   grid-template-columns: 50% 50%;
+}
+
+#music-vietnamese-hot {
+    border-right: 1px solid hsl(0, 0%, 93%);
+    padding-right: 10px;
+}
+
+#music-vietnamese-new {
+    padding-left: 10px;
+}
+
+.music-vietnamese-section {
+    display: flex;
+    height: 70px;
+    align-items: center;
+    padding-bottom: 5px 0;
+    border-bottom: 1px solid hsl(0, 0%, 93%);
+}
+
+.music-vietnamese-section:hover .music-vietnamese-icon {
+    display: flex;
+}
+
+.music-vietnamese-item img {
+    height: 60px;
+}
+
+.music-vietnamese-info {
+    flex-grow: 1;
+    padding-left: 10px;
+}
+
+.music-vietnamese-icon {
+    display: none;
+    line-height: 16px;
+}
+
+.music-vietnamese-icon img {
+    height: 14px;
+    padding-right: 10px;
+}
+
+/* Nghệ Sỹ Hot */
+
+#artist-hot { 
+    height: 210px;
+}
+
+#artist-hot article {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+}
+
+.artist-hot-big {
+    padding-right: 10px; 
+    padding-top: 10px;
+}
+
+.artist-hot-big img {
+    width: 210px;
+    height: 210px;
+}
+
+.artist-item {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-column-gap: 10px;
+    grid-row-gap: 10px;
+    padding-left: 0;
+    padding-top: 10px;
+    height: 220px;
+}
+
+.artist-item img {
+    width: 100%;
+}
